@@ -14,8 +14,7 @@ export default function Footer() {
               <span className="font-bold text-2xl tracking-tighter text-zinc-900">FlowSight</span>
             </Link>
             <p className="text-sm leading-relaxed mb-6 max-w-xs">
-              Task-level time clarity and weekly rollups you can export—same FlowSight principles, scoped to delivery
-              proof.
+              Task-level time clarity and weekly rollups you can export—scoped to delivery proof.
             </p>
           </div>
 
@@ -23,8 +22,13 @@ export default function Footer() {
             <h3 className="font-semibold text-zinc-900 mb-6">Product</h3>
             <ul className="space-y-4 text-sm">
               <li>
-                <Link href="/#how" className="hover:text-indigo-600 transition-colors">
+                <Link href="/#how-it-works" className="hover:text-indigo-600 transition-colors">
                   How it works
+                </Link>
+              </li>
+              <li>
+                <Link href="/#pricing" className="hover:text-indigo-600 transition-colors">
+                  Pricing
                 </Link>
               </li>
               <li>
@@ -68,10 +72,10 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-zinc-200 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <p>&copy; {currentYear} FlowSight Inc. Task time workspace (demo).</p>
+          <p>&copy; {currentYear} FlowSight Inc. FlowSight Tasks.</p>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>Local workspace · no account required for the demo</span>
+            <span>Local-first signals · rollups and exports on your terms</span>
           </div>
         </div>
       </div>

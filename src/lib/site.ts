@@ -1,20 +1,21 @@
-/** Marketing + app shell config (SEO, OG). Parallel product to FlowSight_landing: task time + reporting. */
+/** Marketing + app shell config (SEO, OG). FlowSight Tasks: task time + rollups + workspace reporting. */
 export const siteConfig = {
   name: 'FlowSight',
-  productSlug: 'Task time & reporting',
+  productSlug: 'Tasks',
   legalName: 'FlowSight Inc.',
   url: 'https://flowsight.site',
   defaultOgImage: '/flowsight_sinfondo.png',
   description:
-    'FlowSight for task time: know exactly where your hours go, close the loop with automatic weekly rollups, and export client-ready summaries—without surveillance theater.',
+    'FlowSight Tasks: map hours to tickets and sprints, get automatic weekly rollups, and export stakeholder-ready summaries—local-first, no surveillance theater.',
   keywords: [
     'FlowSight',
+    'FlowSight Tasks',
     'task time tracking',
-    'automatic weekly report',
+    'sprint rollup',
+    'weekly delivery report',
     'proof of work',
     'local-first productivity',
     'export time report CSV',
-    'deep work by task',
     'freelancer time summary',
   ],
   twitterHandle: '@flowsight',

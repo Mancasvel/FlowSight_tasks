@@ -20,3 +20,6 @@ coverage/
 .DS_Store
 *.tsbuildinfo
 .vercel
+
+# Local-only context for AI / handoffs (not shared via git)
+CHAT_SESSION_CONTEXT.md
