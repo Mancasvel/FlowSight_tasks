@@ -1,0 +1,42 @@
+{
+  "name": "flowsight-task-time",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.4",
+  "engines": {
+    "node": ">=20.9.0 <23",
+    "pnpm": ">=10.33.4 <11"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings 0",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@supabase/ssr": "~0.8.0",
+    "@supabase/supabase-js": "~2.95.3",
+    "class-variance-authority": "~0.7.1",
+    "clsx": "~2.1.1",
+    "framer-motion": "~12.38.0",
+    "lucide-react": "~0.563.0",
+    "next": "~16.2.6",
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1",
+    "tailwind-merge": "~3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "~20.19.0",
+    "@types/react": "~18.3.0",
+    "@types/react-dom": "~18.3.0",
+    "autoprefixer": "~10.4.0",
+    "eslint": "~9.39.4",
+    "eslint-config-next": "~16.2.6",
+    "postcss": "~8.5.0",
+    "tailwindcss": "~3.4.0",
+    "typescript": "~5.9.3",
+    "vitest": "~3.2.4"
+  }
+}
